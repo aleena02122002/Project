@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyAccountActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="20dp"
+            android:text="My Account"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/toolbar"
+            app:layout_constraintHorizontal_bias="0.106"
+            app:layout_constraintStart_toStartOf="@+id/toolbar"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/profile"/>
+
+        <TextView
+            android:id="@+id/Profile_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nimra Shafi"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:src="@drawable/edit"
+            android:layout_gravity="start"
+            android:text="."
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="#55000000"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/person"/>
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/Current_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="23dp"
+            android:gravity="center"
+            android:text="Nimra Shafi"
+            android:textColor="#555454"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000A42"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/email_black"/>
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:gravity="center"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/Current_Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="23dp"
+            android:gravity="center"
+            android:text="nim@gmail.com"
+            android:textColor="#555454"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000A42"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/person"/>
+
+        <TextView
+            android:id="@+id/Contact_No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:gravity="center"
+            android:text="Contact Number"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/Current_Contact_Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="23dp"
+            android:gravity="center"
+            android:text="xxxx-xxxxxxx"
+            android:textColor="#555454"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

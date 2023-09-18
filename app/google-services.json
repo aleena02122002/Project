@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "63380554795",
+    "project_id": "armour-d2aa6",
+    "storage_bucket": "armour-d2aa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63380554795:android:b36df9cd9b83f648bf566e",
+        "android_client_info": {
+          "package_name": "com.example.armour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63380554795-vh78avk8gnr7bhpim3v5v4ogb1bg864v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7CrhGgxx6S0e5r6cplqAD0MvvEKwE3kI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63380554795-vh78avk8gnr7bhpim3v5v4ogb1bg864v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
